@@ -1,5 +1,6 @@
 //cose che puoi modificare
-var imagenames = ["piano", "piede", "pieno", "piuma", "ruota", "sedia", "siepe", "suola", "suono", "suora", "viale", "viola", "zaino"];     //Risposta corretta
+var imagenames = ["piano", "piede", "pieno", "piuma", "ruota", "sedia", "siepe", "suola", "suono", "suora", "viale", "viola", "zaino"];     //Nome Immagine
+var name1 = ["piano", "piede", "pieno", "piuma", "ruota", "sedia", "siepe", "suola", "suono", "suora", "viale", "viola", "zaino"];     //Risposta corretta
 var name2 = ["piap", "peep", "vuoto", "mattone", "quadrato", "sees", "muro", "NO", "earrape", "prete", "superale", "voov", "zaaz"];    //Risposta sbagliata 1
 var name3 = ["piap", "peep", "vuoto", "mattone", "quadrato", "sees", "muro", "NO", "earrape", "prete", "superale", "voov", "zaaz"];    //Risposta sbagliata 2
 
@@ -42,7 +43,7 @@ function newimage() {
                     if(UrlExists(urltocheck)){
                         document.getElementById('image').setAttribute("src", urltocheck);
 
-                        var elems = [imagenames[imagerng], name2[imagerng], name3[imagerng]];
+                        var elems = [name1[imagerng], name2[imagerng], name3[imagerng]];
                             
                         var arrrng = [0, 1, 2]
 
@@ -75,7 +76,7 @@ function check(src) {
     document.getElementById('1').disabled = true;
     document.getElementById('2').disabled = true;
     document.getElementById('3').disabled = true;
-    if (src.innerHTML == imagenames[imagerng]) {
+    if (src.innerHTML == name1[imagerng]) {
         correct = true;
         src.style.backgroundColor = "#008000";
     } else {
