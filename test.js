@@ -1,6 +1,6 @@
 //cose che puoi modificare
 var imagenames = ["piano", "piede", "pieno", "piuma", "ruota", "sedia", "siepe", "suola", "suono", "suora", "viale", "viola", "zaino"];     //Nome Immagine
-var name1 = ["piano", "piede", "pieno", "piuma", "ruota", "sedia", "siepe", "suola", "suono", "suora", "viale", "viola", "zaino"];     //Risposta corretta
+var name1 = ["il piano", "il piede", "il pieno", "la piuma", "la ruota", "la sedia", "la siepe", "la suola", "il suono", "la suora", "il viale", "il viola", "lo zaino"];     //Risposta corretta
 var name2 = ["piap", "peep", "vuoto", "mattone", "quadrato", "sees", "muro", "NO", "earrape", "prete", "superale", "voov", "zaaz"];    //Risposta sbagliata 1
 var name3 = ["piap", "peep", "vuoto", "mattone", "quadrato", "sees", "muro", "NO", "earrape", "prete", "superale", "voov", "zaaz"];    //Risposta sbagliata 2
 
